@@ -15,7 +15,7 @@ let Projects = () => {
                                 <h4>Fitness Blender Clone</h4>
                                 <p className="project-description">A website that gives provides cricket
 scores, scorecard updates ,cricket news,
-match schedule, predictions and more.</p>
+match schedule, predictions and more..</p>
                                 <div className="technology-used">
                                     
                                    
