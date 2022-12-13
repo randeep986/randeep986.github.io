@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
+import { SiRedux } from 'react-icons/si'
+import { DiMongodb } from "react-icons/di"
 
 let Skills = () => {
+    const [isHover, setIsHover] = useState(false)
+    const [isHoverMongo, setIsHoverMongo] = useState(false)
+
+    const handleMouseEnter = () => {
+        setIsHover(true)
+    }
+    const handleMouseLeave = () => {
+        setIsHover(false)
+    }
+    const handleMouseEnterMongo=()=>{
+        
+        setIsHoverMongo(true)
+    }
+    const handleMouseLeaveMongo=()=>{
+        
+        setIsHoverMongo(false)
+    }
+    const boxStyle = {
+
+        color: isHover ? "blue" : "black",
+        TextEncoder:  isHover ? "Redux": null
+
+
+    }
+    const boxStyleMongo = {
+        color: isHoverMongo ? "lightgreen"  : "black"
+
+    }
     return (
         <section className="skills-section" id="skills-section">
             <div className="container">
@@ -15,12 +44,12 @@ let Skills = () => {
                         <i className="skill-logo fa fa-css3"></i>
                         <i className="skill-logo fab fa-js"></i>
                         <i className="skill-logo fab fa-bootstrap"></i>
-                        <i className="skill-logo fab fa-angular"></i>
+                        <i className="skill-logo fab " style={boxStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ><SiRedux  /> </i>
+                        <i className="skill-logo fab " style={boxStyleMongo} onMouseEnter={handleMouseEnterMongo} onMouseLeave={handleMouseLeaveMongo} ><DiMongodb /></i>
                         <i className="skill-logo fab fa-react"></i>
                         <i className="skill-logo fab fa-node"></i>
-                        <i className="skill-logo fab fa-java"></i>
                         <i className="skill-logo fab fa-git-alt"></i>
-                        <i className="skill-logo fa-brands fa-figma"></i>
+
                     </div>
                 </AnimationOnScroll>
             </div>
