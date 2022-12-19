@@ -7,8 +7,10 @@ import image from '../components/staticData/fitnessBlender.png'
 import pic from '../components/staticData/ideaKart.png'
 import picc from '../components/staticData/cricket.png'
 import {Image} from '@chakra-ui/react'
+// import GitHubCalender from "react-github-calender"
 let Projects = () => {
     return (
+        <>
         <section className="projects-section" id="projects-section" style={{marginTop:"-80px", marginBottom:"-30px",paddingBottom:"-40px"}}>
             <div className="container">
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
@@ -102,7 +104,13 @@ let Projects = () => {
                 </AnimationOnScroll>
                 
             </div>
+       
         </section>
+        {/* <GitHubCalender username="randeep986" blockSize={15} 
+        blockMargin={5} color="#f5d10d"
+        fontSize={16}/> */}
+        </>
+
     )
 }
 

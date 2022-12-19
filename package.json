@@ -13,11 +13,16 @@
     "axios": "^1.2.1",
     "bootstrap": "^5.2.2",
     "framer-motion": "^7.10.2",
+    "install": "^0.13.0",
+    "npm": "^9.2.0",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.4.0",
+    "react-github-calender": "^1.1.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
+    "react-tooltip": "^4.5.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

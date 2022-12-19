@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=PT+Sans&family=Poppins:wght@300;400;500;600&display=swap");
+
+.calender {
+  margin: auto;
+  margin-top: 5rem;
+  width: 50%;
+  text-align: center;
+}
+.calender > h1 {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 50px;
+}
+.calenderChild {
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  width: 70%;
+  background: var(--color-bg-variant);
+
+  transition: var(--transition);
+}
+.calenderChild:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .calender {
+    margin: auto;
+    margin-top: 90px;
+    width: 90%;
+    text-align: center;
+  }
+  .calenderChild {
+    margin: auto;
+    color: rgb(167, 161, 155);
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 600px) {
+  .calender {
+    margin: auto;
+    margin-top: 60px;
+    width: 97%;
+    text-align: center;
+  }
+  .calenderChild {
+    margin: auto;
+    color: rgb(182, 174, 164);
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .calender > h1 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 439px) {
+  .calender {
+    margin: auto;
+    margin-top: 40px;
+    width: 97%;
+    text-align: center;
+  }
+  .calenderChild {
+    margin: auto;
+    color: rgb(250, 248, 246);
+    width: 90%;
+    margin-top: 20px;
+  }
+  .calender > h1 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .calenderChild:hover {
+    transform: scale(1.1);
+  }
+}
