@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57cf8fe7.css",
-    "main.js": "/static/js/main.40e72fab.js",
+    "main.css": "/static/css/main.e5382fa8.css",
+    "main.js": "/static/js/main.82a96d7c.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/coolmart.png": "/static/media/coolmart.74dd989e7adfc57a675b.png",
     "static/media/ideaKart.png": "/static/media/ideaKart.cea1389894de13e9414b.png",
@@ -11,12 +11,12 @@
     "static/media/Randeep_Singh_Resume.pdf": "/static/media/Randeep_Singh_Resume.1323e4317f9c7f57f469.pdf",
     "static/media/profile-img.png": "/static/media/profile-img.71d211e7c2942769750e.png",
     "index.html": "/index.html",
-    "main.57cf8fe7.css.map": "/static/css/main.57cf8fe7.css.map",
-    "main.40e72fab.js.map": "/static/js/main.40e72fab.js.map",
+    "main.e5382fa8.css.map": "/static/css/main.e5382fa8.css.map",
+    "main.82a96d7c.js.map": "/static/js/main.82a96d7c.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57cf8fe7.css",
-    "static/js/main.40e72fab.js"
+    "static/css/main.e5382fa8.css",
+    "static/js/main.82a96d7c.js"
   ]
 }
