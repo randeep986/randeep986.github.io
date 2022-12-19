@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.57cf8fe7.css",
-    "main.js": "/static/js/main.0269f276.js",
+    "main.js": "/static/js/main.40e72fab.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/coolmart.png": "/static/media/coolmart.74dd989e7adfc57a675b.png",
+    "static/media/ideaKart.png": "/static/media/ideaKart.cea1389894de13e9414b.png",
     "static/media/beach.jpg": "/static/media/beach.7612cf55c5eb3e6196de.jpg",
+    "static/media/cricket.png": "/static/media/cricket.0e8318cd1ea9a6a54315.png",
+    "static/media/fitnessBlender.png": "/static/media/fitnessBlender.6b29e69489c99feb92e0.png",
     "static/media/Randeep_Singh_Resume.pdf": "/static/media/Randeep_Singh_Resume.1323e4317f9c7f57f469.pdf",
     "static/media/profile-img.png": "/static/media/profile-img.71d211e7c2942769750e.png",
     "index.html": "/index.html",
     "main.57cf8fe7.css.map": "/static/css/main.57cf8fe7.css.map",
-    "main.0269f276.js.map": "/static/js/main.0269f276.js.map",
+    "main.40e72fab.js.map": "/static/js/main.40e72fab.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57cf8fe7.css",
-    "static/js/main.0269f276.js"
+    "static/js/main.40e72fab.js"
   ]
 }
