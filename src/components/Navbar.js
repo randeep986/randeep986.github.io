@@ -25,6 +25,9 @@ let Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                                <a className="nav-link" href="#hero-section">Home</a>
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#about-section">About</a>
                             </li>
@@ -37,6 +40,9 @@ let Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#contact-section">Contact</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link"  target="blank">Resume</a>
                             </li>
                         </ul>
                     </div>

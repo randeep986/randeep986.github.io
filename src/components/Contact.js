@@ -4,7 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 let Contact = () => {
     return (
-        <section className="contact-section" id="contact-section">
+        <section className="contact-section" id="contact-section" style={{marginTop:"-50px", marginBottom:"-30px",paddingBottom:"-40px",paddingTop:"-40px"}}>
             <div className="container">
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
                     <h3>Contact Me</h3>
