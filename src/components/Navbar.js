@@ -30,6 +30,7 @@ let Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link about" href="#about-section">About</a>
+                                
                             </li>
                             
                             <li className="nav-item">
