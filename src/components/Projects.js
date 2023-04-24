@@ -36,8 +36,8 @@ let Projects = () => {
 
                                 </div >
                                 <div style={{display: "flex", gap: "30px", marginBottom:"10px"}}>
-                                <a href="https://coolmart-modesens-clone.netlify.app/"><AiFillGithub size="30"></AiFillGithub></a>
-                                    <a href="https://github.com/Surendrakumar878/hissing-love-5128"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
+                                <a className="project-deployed-link" href="https://coolmart-modesens-clone.netlify.app/"><AiFillGithub size="30"></AiFillGithub></a>
+                                    <a  className="project-github-link" href="https://github.com/Surendrakumar878/hissing-love-5128"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
@@ -55,8 +55,8 @@ let Projects = () => {
 
                                 </div >
                                 <div style={{display: "flex", gap: "30px", marginBottom:"10px"}}>
-                                <a href="https://github.com/randeep986/fitness_blender_Clone"><AiFillGithub size="30"></AiFillGithub></a>
-                                    <a href="https://transcendent-cajeta-545735.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
+                                <a className="project-github-link" href="https://github.com/randeep986/fitness_blender_Clone"><AiFillGithub size="30"></AiFillGithub></a>
+                                    <a className="project-deployed-link" href="https://transcendent-cajeta-545735.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
@@ -74,8 +74,8 @@ let Projects = () => {
 
                                 </div >
                                 <div style={{display: "flex", gap: "30px", marginBottom:"10px"}}>
-                                <a href="https://github.com/Khajamoinoddin/selective-spark-9795"><AiFillGithub size="30"></AiFillGithub></a>
-                                    <a href="https://sweet-blancmange-3c6ad0.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
+                                <a className="project-github-link" href="https://github.com/Khajamoinoddin/selective-spark-9795"><AiFillGithub size="30"></AiFillGithub></a>
+                                    <a className="project-deployed-link" href="https://sweet-blancmange-3c6ad0.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
@@ -93,8 +93,8 @@ let Projects = () => {
 
                                 </div >
                                 <div style={{display: "flex", gap: "30px", marginBottom:"10px"}}>
-                                <a href="https://github.com/abhiamber/fabulous-vest-203-"><AiFillGithub size="30"></AiFillGithub></a>
-                                    <a href="https://fabulous-vest-203.vercel.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
+                                <a className="project-github-link" href="https://github.com/abhiamber/fabulous-vest-203-"><AiFillGithub size="30"></AiFillGithub></a>
+                                    <a className="project-deployed-link" href="https://fabulous-vest-203.vercel.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
 
