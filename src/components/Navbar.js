@@ -29,7 +29,7 @@ let Navbar = () => {
                                 <a className="nav-link home" href="#hero-section">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#about-section">About</a>
+                                <a className="nav-link about" href="#about-section">About</a>
                             </li>
                             
                             <li className="nav-item">
