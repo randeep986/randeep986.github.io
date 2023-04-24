@@ -24,9 +24,9 @@ let Projects = () => {
                              <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={photo}  width="100%" padding="20px"/>
                                 
-                                <h4>Coolmart (Modsense Clone)</h4>
+                                <h4 className="project-title">Coolmart (Modsense Clone)</h4>
                                 <p className="project-description" style={{ fontSize:"15px",textAlign:"justify"}}>Coolmart is your fashion shopping assistant, with Coolmart, you can view a product's availability, price and much more</p>
-                                <div className="technology-used" >
+                                <div className="project-tech-stack" >
 
                                     <span className="technology-used-item">ReactJs</span>
                                     <span className="technology-used-item">Bootstrap</span>
@@ -43,9 +43,9 @@ let Projects = () => {
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={image}  width="100%" padding="20px"/>
                                 
-                                <h4>FitnessBlender Clone</h4>
+                                <h4 className="project-title">FitnessBlender Clone</h4>
                                 <p className="project-description" style={{ fontSize:"15px",textAlign:"justify"}}>Fitness Blender provides free full length workout videos, workout routines, healthy recipes and more</p>
-                                <div className="technology-used" >
+                                <div className="project-tech-stack" >
 
                                     <span className="technology-used-item">ReactJs</span>
                                     <span className="technology-used-item">Axios</span>
@@ -62,9 +62,9 @@ let Projects = () => {
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={picc}  width="100%" padding="20px"/>
                                 
-                                <h4>Cricket.com Clone</h4>
+                                <h4 className="project-title">Cricket.com Clone</h4>
                                 <p className="project-description" style={{ fontSize:"15px",textAlign:"justify"}}>It provides live cricket scores, updates, predictions, results, latest news & videos of all domestic & T20 series and much more</p>
-                                <div className="technology-used" >
+                                <div className="project-tech-stack">
 
                                     <span className="technology-used-item">HTML</span>
                                     <span className="technology-used-item">Advanced JS </span>
@@ -81,9 +81,9 @@ let Projects = () => {
                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={pic}  width="100%" padding="20px"/>
                                 
-                                <h4>IdeaKart Clone</h4>
+                                <h4 className="project-title">IdeaKart Clone</h4>
                                 <p className="project-description" style={{ fontSize:"15px",textAlign:"justify"}}>Ideakart is an e-commerce shopping assitant, with Ideakart you can view product's availability, prices, reviews and mush more</p>
-                                <div className="technology-used" >
+                                <div className="project-tech-stack">
 
                                     <span className="technology-used-item">HTML</span>
                                     <span className="technology-used-item">Advanced JS </span>

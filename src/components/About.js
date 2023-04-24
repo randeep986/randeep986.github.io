@@ -12,7 +12,7 @@ let About = () => {
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
                     <h3>About Me</h3>
                 </AnimationOnScroll>
-                <div className="about-grid">
+                <div className="home-img">
                     <img src={profilePhoto} alt="profile" className="profile-photo" style={{borderRadius:"80%",width: "300px"}} />
                     <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
                         <p className="about-info" style={{textAlign:"justify"}}>
