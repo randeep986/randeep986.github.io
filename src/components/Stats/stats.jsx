@@ -5,7 +5,7 @@ import "../Stats/stats.css"
 
 export  const Stats = () => {
   return (
-    <div id="github-top-langs"  data-aos="fade-up"
+    <div data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -14,15 +14,17 @@ export  const Stats = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
          <h1>Github Stats</h1>
-      <div id="github-stats-card">
+      <div >
         <a href="https://github.com/randeep986">
           <img
+          id="github-stats-card"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=randeep986&theme=radical"
           />
         </a>
         <a href="https://github.com/randeep986">
           <img 
+          id="github-top-langs"  
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=randeep986&theme=radical&count_private=true&show_icons=true" //stats
           />
@@ -30,9 +32,10 @@ export  const Stats = () => {
         
       </div>
  
-      <div id="github-streak-stats" >
+      <div >
         <a href="https://github.com/randeep986">  
-          <img
+          <img 
+            id="github-streak-stats"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=randeep986&theme=radical"  //launguages
           />
