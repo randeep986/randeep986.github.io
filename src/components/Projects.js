@@ -41,7 +41,7 @@ let Projects = () => {
  href="https://github.com/Surendrakumar878/hissing-love-5128"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={image}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">FitnessBlender Clone</h4>
@@ -61,7 +61,7 @@ let Projects = () => {
  href="https://transcendent-cajeta-545735.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={picc}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">Cricket.com Clone</h4>
@@ -81,7 +81,7 @@ let Projects = () => {
  href="https://sweet-blancmange-3c6ad0.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={pic}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">IdeaKart Clone</h4>
