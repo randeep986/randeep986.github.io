@@ -17,11 +17,11 @@ let Contact = () => {
                             <label htmlFor="name-input">Name:</label>
                             <input type="text" className="form-control" id="name-input" placeholder="Name" name="user_name" required />
                         </div>
-                        <div className="form-group">
+                        <div id="contact-email" className="form-group">
                             <label htmlFor="email-input">Email:</label>
                             <input type="email" className="form-control" id="email-input" placeholder="Email" name="user_mail" required />
                         </div>
-                        <div className="form-group">
+                        <div id="contact-phone" className="form-group">
                             <label htmlFor="message-input">Message</label>
                             <textarea type="text" className="form-control" id="message-input" placeholder="Message" name="user_message"
                                 rows="3" required></textarea>

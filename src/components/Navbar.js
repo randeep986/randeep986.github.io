@@ -28,22 +28,22 @@ let Navbar = () => {
                         <li className="nav-item" id='home'>
                                 <a className="nav-link home" href="#hero-section">Home</a>
                             </li>
-                            <li className="nav-item">
+                            <li id='about' className="nav-item about section">
                                 <a className="nav-link about" href="#about-section">About</a>
 
                             </li>
                             
-                            <li className="nav-item">
+                            <li id='projects' className="nav-item">
                                 <a className="nav-link projects" href="#projects-section">Projects</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link skills" href="#skills-section">Skills</a>
                             </li>
-                            <li className="nav-item">
+                            <li id='contact' className="nav-item">
                                 <a className="nav-link contact" href="#contact-section">Contact</a>
                             </li>
                             <li id='resume-button-1' className="nav-item">
-                                <a className="nav-link" href="https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link"  target="blank">Resume</a>
+                                <a className="nav-link resume" href="https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link"  target="blank">Resume</a>
                             </li>
                         </ul>
                     </div>

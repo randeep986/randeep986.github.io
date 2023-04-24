@@ -6,7 +6,9 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 let About = () => {
     return (
         <section className="about-section" id="about-section" style={{maginTop: "-10px"}}>
-            <div className="container">
+            <div 
+            id="user-detail-intro"
+            className="container">
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
                     <h3>About Me</h3>
                 </AnimationOnScroll>
