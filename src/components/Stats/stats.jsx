@@ -5,7 +5,7 @@ import "../Stats/stats.css"
 
 export  const Stats = () => {
   return (
-    <div className="Stats" data-aos="fade-up"
+    <div id="github-top-langs" className="Stats" data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -14,7 +14,7 @@ export  const Stats = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
          <h1>Github Stats</h1>
-      <div  className="StatsChild1">
+      <div id="github-stats-card" className="StatsChild1">
         <a href="https://github.com/randeep986">
           <img
             align="left"
@@ -30,7 +30,7 @@ export  const Stats = () => {
         
       </div>
  
-      <div className="StatsChild2">
+      <div id="github-streak-stats" className="StatsChild2">
         <a href="https://github.com/randeep986">  
           <img
             align="center"

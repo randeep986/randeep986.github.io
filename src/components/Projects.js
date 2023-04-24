@@ -21,7 +21,7 @@ let Projects = () => {
                         
                            
                               
-                             <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={photo}  width="100%" padding="20px"/>
                                 
                                 <h4>Coolmart (Modsense Clone)</h4>
@@ -40,7 +40,7 @@ let Projects = () => {
                                     <a href="https://github.com/Surendrakumar878/hissing-love-5128"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={image}  width="100%" padding="20px"/>
                                 
                                 <h4>FitnessBlender Clone</h4>
@@ -59,7 +59,7 @@ let Projects = () => {
                                     <a href="https://transcendent-cajeta-545735.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={picc}  width="100%" padding="20px"/>
                                 
                                 <h4>Cricket.com Clone</h4>
@@ -78,7 +78,7 @@ let Projects = () => {
                                     <a href="https://sweet-blancmange-3c6ad0.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={pic}  width="100%" padding="20px"/>
                                 
                                 <h4>IdeaKart Clone</h4>
