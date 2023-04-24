@@ -14,7 +14,7 @@ let Navbar = () => {
     window.addEventListener('scroll', changeNavbarColor);
     return (
         <div>
-            <nav className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
+            <nav id='nav-menu' className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
                 <div className="container-fluid">
                     {/* <a className="navbar-brand" href="#hero-section"><img className="logo" src={Logo} alt="brand" /></a> */}
                     <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse"

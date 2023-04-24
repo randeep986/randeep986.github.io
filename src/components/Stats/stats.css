@@ -8,7 +8,7 @@
 }
 .Stats > h1 {
   font-size: 35px;
-  color: #4db5ff;
+  color: black;
   margin-bottom: 50px;
 }
 .StatsChild1 {
@@ -31,7 +31,7 @@
 .StatsChild2:hover {
   transform: scale(1.1);
 }
-@media only screen and (min-width: 751px) and (max-width: 950px) {
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
   .Stats {
     width: 85%;
     text-align: center;
@@ -42,7 +42,7 @@
   }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 750px) {
+@media only screen and (min-width: 350px) and (max-width: 750px) {
   .Stats {
     width: 96%;
     text-align: center;
