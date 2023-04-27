@@ -39,10 +39,10 @@ let Navbar = () => {
                             <li id='skills' className="nav-item">
                                 <a className="nav-link skills" href="#skills-section">Skills</a>
                             </li>
-                            <li id='contact' className="resume-button-1">
+                            <li id='contact' className="nav-item">
                                 <a className="nav-link contact" href="#contact-section">Contact</a>
                             </li>
-                            <li  className="nav-item">
+                            <li  className="nav-item" id="resume-button-1">
                                 <a className="nav-link resume" href="https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link"  target="blank"> <button >Resume</button> </a>
                             </li>
                         </ul>
