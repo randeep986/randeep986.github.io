@@ -35,7 +35,7 @@ export  const Stats = () => {
       <div  className="StatsChild2">
         <a href="https://github.com/randeep986">  
           <img 
-            id="github-streak-langs"
+            id="github-top-langs"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=randeep986&theme=radical"  //launguages
           />
