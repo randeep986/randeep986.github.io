@@ -17,14 +17,14 @@ export  const Stats = () => {
       <div className="StatsChild1" >
         <a href="https://github.com/randeep986">
           <img
-          id="github-stats-card"
+          id="github-streak-stats"  
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=randeep986&theme=radical"
-          />
+            />
         </a>
         <a href="https://github.com/randeep986">
           <img 
-          id="github-streak-stats"  
+            id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=randeep986&theme=radical&count_private=true&show_icons=true" //stats
           />
