@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49e43d1d.css",
-    "main.js": "/static/js/main.a39ccc60.js",
+    "main.js": "/static/js/main.41ab5aa2.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/coolmart.png": "/static/media/coolmart.74dd989e7adfc57a675b.png",
     "static/media/ideaKart.png": "/static/media/ideaKart.cea1389894de13e9414b.png",
@@ -12,11 +12,11 @@
     "static/media/profile-img.png": "/static/media/profile-img.71d211e7c2942769750e.png",
     "index.html": "/index.html",
     "main.49e43d1d.css.map": "/static/css/main.49e43d1d.css.map",
-    "main.a39ccc60.js.map": "/static/js/main.a39ccc60.js.map",
+    "main.41ab5aa2.js.map": "/static/js/main.41ab5aa2.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49e43d1d.css",
-    "static/js/main.a39ccc60.js"
+    "static/js/main.41ab5aa2.js"
   ]
 }
