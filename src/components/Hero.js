@@ -28,7 +28,7 @@ let Hero = () => {
     }, []);
 
     return (
-        <section className="hero-section" id="hero-section">
+        <section className="hero-section" id="user-detail-intro">
             <div style={{ backgroundImage:`url(${image})` }} className="hero-container">
                 <div id="user-detail-name" className="hero-text-wrapper">
                     <h1 className="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Randeep!</h1>
