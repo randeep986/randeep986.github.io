@@ -14,7 +14,7 @@ export  const Stats = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
          <h1>Github Stats</h1>
-      <div >
+      <div className="StatsChild1" >
         <a href="https://github.com/randeep986">
           <img
           id="github-stats-card"
@@ -32,7 +32,7 @@ export  const Stats = () => {
         
       </div>
  
-      <div >
+      <div  className="StatsChild2">
         <a href="https://github.com/randeep986">  
           <img 
             id="github-streak-langs"
