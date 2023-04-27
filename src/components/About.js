@@ -11,7 +11,7 @@ let About = () => {
                     <h3>About Me</h3>
                 </AnimationOnScroll>
                 <div className="about-grid">
-                    //in img tag please replace the classname with "profile-photo" 
+                    {/* //in img tag please replace the classname with "profile-photo"  */}
                     <img src={profilePhoto} alt="profile" className="home-img" style={{borderRadius:"80%",width: "300px"}} />
                     <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
                         <p className="about-info" style={{textAlign:"justify"}}>

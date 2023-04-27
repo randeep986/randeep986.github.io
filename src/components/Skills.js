@@ -51,6 +51,25 @@ let Skills = () => {
                         <i className="skill-logo fab fa-git-alt"></i>
 
                     </div>
+                    <div style={{visibility:"none"}}>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src="" alt=""/>
+                            <p className="skils-card-name">h</p>
+                        </div>
+                        <div className="skills-card">
+                            <img className="skills-card-img" src="" alt=""/>
+                            <p className="skils-card-name">h</p>
+                        </div>                        <div className="skills-card">
+                            <img className="skills-card-img" src="" alt=""/>
+                            <p className="skils-card-name">h</p>
+                        </div>                        <div className="skills-card">
+                            <img className="skills-card-img" src="" alt=""/>
+                            <p className="skils-card-name">h</p>
+                        </div>                        <div className="skills-card">
+                            <img className="skills-card-img" src="" alt=""/>
+                            <p className="skils-card-name">h</p>
+                        </div>
+                    </div>
                 </AnimationOnScroll>
             </div>
         </section>
