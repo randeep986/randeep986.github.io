@@ -39,7 +39,7 @@ let Skills = () => {
                     <h3>Some technologies I've used:</h3>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-                    {/* <div className="skill-logos-container">
+                    <div className="skill-logos-container">
                         <i className="skill-logo fa fa-html5"></i>
                         <i className="skill-logo fa fa-css3"></i>
                         <i className="skill-logo fab fa-js"></i>
@@ -50,8 +50,8 @@ let Skills = () => {
                         <i className="skill-logo fab fa-node"></i>
                         <i className="skill-logo fab fa-git-alt"></i>
 
-                    </div> */}
-                    <div >
+                    </div>
+                    <div style={{visibility:"hidden", display:"none"}}>
                         <div className="skills-card">
                             <img className="skills-card-img" src="" alt=""/>
                             <p className="skils-card-name">h</p>
