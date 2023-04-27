@@ -39,7 +39,7 @@ let Navbar = () => {
                             <li id='skills' className="nav-item">
                                 <a className="nav-link skills" href="#skills-section">Skills</a>
                             </li>
-                            <li id='contact' className="nav-item">
+                            <li id='contact' className="resume-button-1">
                                 <a className="nav-link contact" href="#contact-section">Contact</a>
                             </li>
                             <li  className="nav-item">
