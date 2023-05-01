@@ -37,7 +37,7 @@ let Skills = () => {
     ]    
     return (
         <section className="skills-section" id="skills-section">
-            <div className="container">
+            {/* <div className="container">
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
                     <h3>Some technologies I've used:</h3>
                 </AnimationOnScroll>
@@ -55,7 +55,7 @@ let Skills = () => {
 
                     </div>
                 </AnimationOnScroll>
-            </div>
+            </div> */}
     
 
     <div id="skills">
