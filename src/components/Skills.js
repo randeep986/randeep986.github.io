@@ -43,10 +43,7 @@ let Skills = () => {
                 </AnimationOnScroll>
                 
     <div id="skills">
-      <h2 className="head-text">
-        My <span>Skills</span>
-      </h2>
-
+      
       <div className="app__skills-container" >
         <div className="app__skills-list">
           
