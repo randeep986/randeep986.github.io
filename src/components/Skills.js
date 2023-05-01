@@ -37,7 +37,7 @@ let Skills = () => {
     ]    
     return (
         <section className="skills-section" id="skills-section">
-            {/* <div className="container">
+            <div className="container app__skills-item app__flex skills-card" key={skills}>
                 <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
                     <h3>Some technologies I've used:</h3>
                 </AnimationOnScroll>
@@ -55,40 +55,7 @@ let Skills = () => {
 
                     </div>
                 </AnimationOnScroll>
-            </div> */}
-    
-
-    <div id="skills">
-      <h2 className="head-text">
-        My <span>Skills</span>
-      </h2>
-
-      <div className="app__skills-container" >
-        <div className="app__skills-list">
-          
-            <div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex skills-card"
-              key={skills}
-            >
-              <div className="app__flex">
-                <img
-                  whileHover={{ scale: [1, 1.2] }}
-                  src={skills}
-                  alt={skills}
-                  className="skills-card-img"
-                />
-              </div>
-              <p className="p-text  skills-card-name">{skills}</p>
             </div>
-          
-        </div>
-      </div>
-    </div>
-  
-
-
         </section>
     )
     
