@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import 'animate.css';
 import image from '../assets/images/beach.jpg';
 import file from '../static/Randeep_Singh_Resume.pdf';
+import { Button } from "@chakra-ui/react";
 
 let currentDate = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) ;
 let currentHour = new Date().getHours();
@@ -13,6 +14,11 @@ let eveningColor = "#FF8866" ;
 let Hero = () => {
     let [greetingText, setGreetingText] = useState("");
     let [greetingTextColor, setGreetingTextColor] = useState("");
+    const handleClick = () =>{
+        window.open("https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view")
+        window.location.href='https://drive.google.com/uc?export=download&id=1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj'
+      }
+      
 
     useEffect(() => {
         if (currentHour >= 1 && currentHour <= 12) {
@@ -34,10 +40,15 @@ let Hero = () => {
                     <h1 className="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}>{greetingText}</span>,<br />I'm Randeep!</h1>
                     <h1 className="animate__animated animate__fadeInDown hero-title"><span style={{color: greetingTextColor}}></span><div style={{fontSize: "30px"}} >Full Stack Web Developer</div></h1>
                     <h2 className="animate__animated animate__fadeInRight hero-date"><span id="date">{currentDate}</span></h2>
-                    <div id="resume-button-2">
-                    <a id="resume-link-2" type="button"  href={file} download rel="noreferrer">Resume <i
-                    className="fa-solid fa-square-arrow-up-right"></i></a>
-                    </div>
+                    
+            <Button
+              onClick={handleClick}
+              download
+              className="button-5"
+              id='resume-button-2'
+            >
+              Resume     
+            </Button>
                 </div>
                 <a className="down-arrow" href="#about-section" aria-label="down-arrow"><i
                     className="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
