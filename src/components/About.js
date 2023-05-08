@@ -19,15 +19,11 @@ let About = () => {
       
 
     return (
-      <div className="about_container about section" id="about">
+      <div className="about_container about section" >
       <h2 className="head-text">
         About<span> Me</span>
       </h2>
-      <div className="app__profiles">
-        <div className="app__profile-item">
-          <div className="app__profile-subitem">
-            <img src="abc" alt={abouts.title} />
-          </div>
+      
           <div className="app__profile-description">
             <p className="p-text" style={{ marginTop: 10 }} id="user-detail-intro">
             {abouts.description}
@@ -42,8 +38,7 @@ let About = () => {
             </Button>
           </div>
         </div>
-      </div>
-    </div>
+    
     //     <section className="about-section" id="about-section" style={{maginTop: "-10px"}}>
     //         <div className="container" >
     //             <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
