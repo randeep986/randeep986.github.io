@@ -19,16 +19,28 @@ let About = () => {
       
 
     return (
-      <div className="about_container about section" >
-      <h2 className="head-text">
-        About<span> Me</span>
-      </h2>
-      
+        <section className="about-section" id="about-section" style={{maginTop: "-10px"}}>
+            <div className="container" >
+                <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
+                    <h3 id="user-detail-name">About Me</h3>
+                </AnimationOnScroll>
+                <div className="about-grid">
+                    {/* //in img tag please replace the classname with "profile-photo"  */}
+                    <img src={profilePhoto} alt="profile" className="home-img" style={{borderRadius:"80%",width: "300px"}} />
+                    <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
+
+    <div className="about_container about section" id="about">
+      <div className="app__profiles">
+        <div className="app__profile-item">
           <div className="app__profile-description">
             <p className="p-text" style={{ marginTop: 10 }} id="user-detail-intro">
             {abouts.description}
             </p>
-            <Button
+          </div>
+        </div>
+      </div>
+      
+      <Button
               onClick={handleClick}
               download
               className="button-5"
@@ -36,47 +48,14 @@ let About = () => {
             >
               Resume     
             </Button>
-          </div>
-        </div>
-    
-    //     <section className="about-section" id="about-section" style={{maginTop: "-10px"}}>
-    //         <div className="container" >
-    //             <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
-    //                 <h3 id="user-detail-name">About Me</h3>
-    //             </AnimationOnScroll>
-    //             <div className="about-grid">
-    //                 {/* //in img tag please replace the classname with "profile-photo"  */}
-    //                 <img src={profilePhoto} alt="profile" className="home-img" style={{borderRadius:"80%",width: "300px"}} />
-    //                 <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-
-    // <div className="about_container about section" id="about">
-    //   <div className="app__profiles">
-    //     <div className="app__profile-item">
-    //       <div className="app__profile-description">
-    //         <p className="p-text" style={{ marginTop: 10 }} id="user-detail-intro">
-    //         {abouts.description}
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-      
-    //   <Button
-    //           onClick={handleClick}
-    //           download
-    //           className="button-5"
-    //           id='resume-button-2'
-    //         >
-    //           Resume     
-    //         </Button>
-    // </div>
+    </div>
   
 
                         
-    //                 </AnimationOnScroll>
-    //             </div>
-    //         </div>
-    //     </section>
-    
+                    </AnimationOnScroll>
+                </div>
+            </div>
+        </section>
     )
 }
 
