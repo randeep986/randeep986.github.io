@@ -12,6 +12,17 @@ let Navbar = () => {
         }
     }
     window.addEventListener('scroll', changeNavbarColor);
+    const handleClick = () =>{
+        window.open("https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link")
+        const url = "https://drive.google.com/uc?export=download&id=1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj";
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = 'file.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+      }
+    
     return (
         <div>
             <nav id='nav-menu' className={colorChange ? 'navbar fixed-top navbar-expand-lg colorChange' : 'navbar fixed-top navbar-expand-lg'} >
@@ -43,7 +54,9 @@ let Navbar = () => {
                                 <a className="nav-link contact" href="#contact-section">Contact</a>
                             </li>
                             <li  className="nav-item" id="resume-button-1">
-                                <a className="nav-link resume" href="https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=share_link"  target="blank">Resume</a>
+                                <a className="nav-link resume"
+            id="resume-button-1"
+            onClick={handleClick}>Resume</a>
                             </li>
                         </ul>
                     </div>
