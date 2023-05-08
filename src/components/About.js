@@ -13,9 +13,10 @@ let About = () => {
       const handleClick = () =>{
         // window.open("https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=sharing")
         // window.location.href='https://drive.google.com/uc?export=download&id=1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj'
-        window.open("https://drive.google.com/file/d/1IvwRAj-3hldcDAgkUlGL7KP3FmoBySuv/view?usp=sharing")
-        window.location.href='https://drive.google.com/uc?export=download&id=1IvwRAj-3hldcDAgkUlGL7KP3FmoBySuv'
+        window.open("https://drive.google.com/file/d/1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm/view?usp=share_link")
+        window.location.href='https://drive.google.com/uc?export=download&id=1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm'
       }
+      
       
 
     return (
