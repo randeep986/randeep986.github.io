@@ -26,7 +26,7 @@ let About = () => {
       <div className="app__profiles">
         <div className="app__profile-item">
           <div className="app__profile-subitem">
-            <img src={images.about01} alt={abouts.title} />
+            <img src="abc" alt={abouts.title} />
           </div>
           <div className="app__profile-description">
             <p className="p-text" style={{ marginTop: 10 }} id="user-detail-intro">
