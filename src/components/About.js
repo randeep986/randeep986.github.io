@@ -10,7 +10,12 @@ let About = () => {
         description:
           "Result-oriented and Enthusiastic Full Stack Web Developer proficient in tech Stacks like JavaScript, React Js, Node Js, Redux and MongoDB. Love to make Interactive UI's. I am a problem-solver and a quick learner who is constantly seeking new challenges and opportunities to grow and develop my skills. I am a highly motivated Full Stack Developer with good technical skills and a passion for creating innovative and effective solutions.",
       };
-    
+      const handleClick = () =>{
+        window.open("https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view")
+        window.location.href='https://drive.google.com/uc?export=download&id=1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj'
+      }
+      
+
     return (
         <section className="about-section" id="about-section" style={{maginTop: "-10px"}}>
             <div className="container" >
@@ -32,6 +37,15 @@ let About = () => {
           </div>
         </div>
       </div>
+      
+      <Button
+              onClick={handleClick}
+              download
+              className="button-5"
+              id='resume-button-2'
+            >
+              Resume     
+            </Button>
     </div>
   
 
