@@ -53,7 +53,7 @@ let Navbar = () => {
                             <li id='contact' className="nav-item">
                                 <a className="nav-link contact" href="#contact-section">Contact</a>
                             </li>
-                            <li  className="nav-item" id="resume-button-1">
+                            <li  className="nav-item" >
                                 <a className="nav-link resume"
             id="resume-button-1"
             onClick={handleClick}>Resume</a>
