@@ -10,12 +10,11 @@ let About = () => {
         description:
           "Result-oriented and Enthusiastic Full Stack Web Developer proficient in tech Stacks like JavaScript, React Js, Node Js, Redux and MongoDB. Love to make Interactive UI's. I am a problem-solver and a quick learner who is constantly seeking new challenges and opportunities to grow and develop my skills. I am a highly motivated Full Stack Developer with good technical skills and a passion for creating innovative and effective solutions.",
       };
-      const handleClick = () =>{
-        // window.open("https://drive.google.com/file/d/1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj/view?usp=sharing")
-        // window.location.href='https://drive.google.com/uc?export=download&id=1wLKSqsMPdEiT2pu2W3PvENyISGSuTtwj'
-        window.open("https://drive.google.com/file/d/1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm/view?usp=share_link")
-        window.location.href='https://drive.google.com/uc?export=download&id=1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm'
-      }
+      // const handleClick = () =>{
+        
+      //   window.open("https://drive.google.com/file/d/1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm/view?usp=share_link")
+      //   window.location.href='https://drive.google.com/uc?export=download&id=1rOhsTr84_RJGsS1k6ErqdrXWlRqVRMfm'
+      // }
       
       
 
@@ -27,7 +26,7 @@ let About = () => {
                 </AnimationOnScroll>
                 <div className="about-grid">
                     {/* //in img tag please replace the classname with "profile-photo"  */}
-                    <img src={profilePhoto} alt="profile" className="home-img" style={{borderRadius:"80%",width: "300px"}} />
+                    <img src={profilePhoto} alt="profile" className="profile-photo" style={{borderRadius:"80%",width: "300px"}} />
                     <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
 
     <div className="about_container about section" id="about">
@@ -41,14 +40,14 @@ let About = () => {
         </div>
       </div>
       
-      <Button
+      {/* <Button
               onClick={handleClick}
               download
               className="button-5"
               id='resume-button-2'
             >
               Resume     
-            </Button>
+            </Button> */}
     </div>
   
 

@@ -17,13 +17,12 @@ let Projects = () => {
                     <h3>Projects I've worked on</h3>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-                    <div className="project-grid">
+                    <div className="projects-grid">
                         
-                           
-                              
-                             <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
+                        {/* project-cards to project-card and project-grid to projects-grid */}
+                             <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={photo}  width="100%" padding="20px"/>
-                                
+                            
                                 <h4 class="project-title" >Coolmart (Modsense Clone)</h4>
                                 <p className="project-description" style={{ fontSize:"15px",textAlign:"justify"}}>Coolmart is your fashion shopping assistant, with Coolmart, you can view a product's availability, price and much more</p>
                                 <div className="technology-used" >
@@ -41,7 +40,7 @@ let Projects = () => {
  href="https://github.com/Surendrakumar878/hissing-love-5128"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={image}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">FitnessBlender Clone</h4>
@@ -61,7 +60,7 @@ let Projects = () => {
  href="https://transcendent-cajeta-545735.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={picc}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">Cricket.com Clone</h4>
@@ -81,7 +80,7 @@ let Projects = () => {
  href="https://sweet-blancmange-3c6ad0.netlify.app/"><BiLinkExternal size="30" color="black"></BiLinkExternal></a>
                                 </div>
                             </div>
-                            <div className="project-card" style={{border: "1px solid red", height:"auto"}} >
+                            <div className="projects-card" style={{border: "1px solid red", height:"auto"}} >
                               <Image src={pic}  width="100%" padding="20px"/>
                                 
                                 <h4 class="project-title">IdeaKart Clone</h4>
